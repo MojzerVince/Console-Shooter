@@ -4,8 +4,6 @@
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Hello, World!");
-
             Console.WindowWidth = 150;
             Console.WindowHeight = 50;
 
@@ -19,6 +17,7 @@
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.CursorLeft = x;
                 Console.CursorTop = y;
+                Console.WriteLine(Console.GetCursorPosition());
                 Console.BackgroundColor = ConsoleColor.White;
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.Write(" ");
